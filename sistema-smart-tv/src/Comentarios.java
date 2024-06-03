@@ -27,9 +27,9 @@ public class Comentarios {
      //   return numeroUm + numeroDois;
     
 
-    public int somarMultiplicar (int soma, int mult, String opcao){
+    public int somarMultiplicar (int soma, int mult, String multiplicacao){
         int resultado = 0; 
-        if (opcao == "M"){ // multiplicação
+        if (multiplicacao == "M"){ // multiplicação
             resultado = mult * soma;
         }else{
             resultado = soma + mult; // soma
